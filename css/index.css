@@ -1,0 +1,25 @@
+li{
+    flex-basis: 100%;
+    text-align: center;
+    list-style-type: none;
+    background: rgba(123, 198, 199, 0.8);
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+li a{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: black;
+    padding: 8px;
+    width: 100%;
+}
+
+ul{
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    gap: 6px;
+    width: max-content;
+}

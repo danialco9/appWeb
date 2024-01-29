@@ -4,7 +4,7 @@
     background-color: #5DADE2;
     width: 75rem;
 }
-.main {
+.div1 {
     display: flex; 
 }
 hr{
@@ -54,9 +54,35 @@ ul{
     gap: 0.375rem;
     width: max-content;
 }
+main{
+    display: flex;
+    justify-content: center;
+}
+
 .mas_vendido {
     border: 0.01rem solid black;
-    background-color: gainsboro;
-    display: flex;
-
+    background-color: #ffffff;
+    border-radius: 20px;
+    height: 22rem;
+    width: 55rem;
+    position: absolute;
+    top: 35%;
+    left: 20%;
+}
+.Ventas{
+    margin-left: 2rem;
+}
+.virus{
+    
+}
+.monopoly{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.cluedo{
+    margin-left: 2rem;
+}
+.virustexto{
+    margin-left: 3.5rem;
+    font-size: x-large;
 }

@@ -40,12 +40,17 @@ li{
     justify-content: space-evenly;    
 }
 li a{
+    text-decoration: none;
     font-family: sans-serif;
     color: black;
     font-size: x-large;
     padding: 2rem;
     width: 16.5rem;
     height: max-content;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 ul{
     padding: 0;
@@ -56,7 +61,8 @@ ul{
 }
 main{
     display: flex;
-    justify-content: center;
+    justify-content: left;
+    margin-left: 5rem;
 }
 
 .mas_vendido {
@@ -68,12 +74,10 @@ main{
     position: absolute;
     top: 35%;
     left: 20%;
+    margin: 1rem;
 }
 .Ventas{
     margin-left: 2rem;
-}
-.virus{
-    
 }
 .monopoly{
     margin-left: 2rem;
@@ -97,4 +101,12 @@ main{
 .cluedotexto{
     margin-left: 7rem;
     font-size: x-large;
+}
+body{
+    background-image: url(/appWeb/imagenes/istockphoto-619649940-612x612.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.descripcion{
+    text-decoration: underline;
 }

@@ -2,8 +2,9 @@
     text-align: center;
     font-weight: bold;
     background-color: #5DADE2;
-    width: 75rem;
+    width: 116rem;
 }
+
 .div1 {
     display: flex; 
 }
@@ -22,13 +23,8 @@ hr{
 .logo {
     width: 9.375rem;
   border: 0.625rem solid black;
-  border-image-width: 22rem;
+  border-image-width: 25rem;
   border-image-outset: 0px;
-}
-
-.logo2 {
-    width: 50rem;
-    height: 50rem;
 }
 li{
     flex-basis: 100%;
@@ -45,7 +41,7 @@ li a{
     color: black;
     font-size: x-large;
     padding: 2rem;
-    width: 16.5rem;
+    width: 27.2rem;
     height: max-content;
     font-weight: bolder;
     display: flex;
@@ -82,12 +78,28 @@ main{
 .virus{
     margin-left: 2rem;
 }
+.virus:hover{
+    transform: scale(1.15);
+    transition: 1s;
+    }
 .monopoly{
     margin-left: 2rem;
     margin-right: 2rem;
 }
+.monopoly:hover{
+    transform: scale(1.25);
+    transition: 1s;
+}
+.rummikub:hover{
+    transform: scale(1.25);
+    transition: 1s;
+}
 .cluedo{
     margin-left: 2rem;
+}
+.cluedo:hover{
+    transform: scale(1.25);
+    transition: 1s;
 }
 .virustexto{
     margin-left: 3.5rem;
@@ -106,16 +118,14 @@ main{
     font-size: x-large;
 }
 body{
-    background-image: url(/appWeb/imagenes/istockphoto-619649940-612x612.jpg);
+    background-image: url(/imagenes/istockphoto-619649940-612x612.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 .descripcion{
     text-decoration: underline;
 }
-.virus:hover{
-transform: scale(1.15);
-}
+
 .descripcion_div{
     border: 0.01rem solid black;
     background-color: #ffffff;
@@ -129,5 +139,6 @@ p{
     margin-left: 2rem;
 }
 footer{
-    
+    background-color: #5DADE2;
+    justify-content: last baseline;
 }

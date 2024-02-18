@@ -2,7 +2,7 @@
     text-align: center;
     font-weight: bold;
     background-color: #5DADE2;
-    width: 116rem;
+    width: 113rem;
 }
 
 .div1 {
@@ -17,16 +17,15 @@ hr{
 }
 .menu {
     text-align: left;
-    padding: 5px;
 }
 
 .logo {
     width: 9.375rem;
-  border: 0.625rem solid black;
-  border-image-width: 25rem;
-  border-image-outset: 0px;
+    border: 0.625rem solid black;
+    border-image-width: 25rem;
+    border-image-outset: 0px;
 }
-li{
+.Cabecera_li{
     flex-basis: 100%;
     text-align: center;
     list-style-type: none;
@@ -35,28 +34,37 @@ li{
     align-items: center;
     justify-content: space-evenly;    
 }
-li a{
+.Cabecera_li_a{
     text-decoration: none;
     font-family: sans-serif;
     color: black;
     font-size: x-large;
-    padding: 2rem;
-    width: 27.2rem;
+    padding: 1rem;
+    width: 28.9rem;
     height: max-content;
     font-weight: bolder;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-ul{
+.Cabecera_ul{
     padding: 0;
     display: flex;
     justify-content: space-around;
     gap: 0.375rem;
     width: max-content;
+    font-size: xx-large;
 }
 main{
     display: flex;
     justify-content: left;
     margin-left: 5rem;
+    position: relative;
+}
+body{
+    background-image: url(/imagenes/istockphoto-619649940-612x612.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width:  100%;
 }

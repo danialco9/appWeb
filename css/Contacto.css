@@ -2,7 +2,7 @@
     text-align: center;
     font-weight: bold;
     background-color: #5DADE2;
-    width: 116rem;
+    width: 113rem;
 }
 
 .div1 {
@@ -17,16 +17,15 @@ hr{
 }
 .menu {
     text-align: left;
-    padding: 5px;
 }
 
 .logo {
     width: 9.375rem;
-  border: 0.625rem solid black;
-  border-image-width: 25rem;
-  border-image-outset: 0px;
+    border: 0.625rem solid black;
+    border-image-width: 25rem;
+    border-image-outset: 0px;
 }
-li{
+.Cabecera_li{
     flex-basis: 100%;
     text-align: center;
     list-style-type: none;
@@ -35,28 +34,95 @@ li{
     align-items: center;
     justify-content: space-evenly;    
 }
-li a{
+.Cabecera_li_a{
     text-decoration: none;
     font-family: sans-serif;
     color: black;
     font-size: x-large;
-    padding: 2rem;
-    width: 27.2rem;
+    padding: 1rem;
+    width: 28.9rem;
     height: max-content;
     font-weight: bolder;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-ul{
+.Cabecera_ul{
     padding: 0;
     display: flex;
     justify-content: space-around;
     gap: 0.375rem;
     width: max-content;
+    font-size: xx-large;
 }
-main{
+footer{
+    position: absolute;
+    background-color: #4e9fd4;
+    border: 0.01rem solid black;
+    border-radius: 15px;
+    bottom: 0;
+    width: 100%;
+    height: 26%;
+    top: 82%;
+}
+.img_footer{
+    margin: 1rem;
+    border: 0.625rem solid black;
+    border-image-width: 25rem;
+    border-image-outset: 0px;
+    left: 25%;
+    position:absolute;
+}
+.gmail{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    align-items: center;
+    text-decoration: none;
+    justify-content: center;
     display: flex;
-    justify-content: left;
-    margin-left: 5rem;
+    font-weight: bolder;
+}
+a{
+    color: black;
+}
+.redsocial{
+    top: 5%;
+    left: 60%;
+    position: absolute;
+    font-weight: bolder;
+    list-style: none;
+}
+.li_footer{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+svg{
+    margin: 0.3rem;
+}
+.li_redes{
+    font-size: x-large;
+}
+body{
+    background-image: url(/imagenes/istockphoto-619649940-612x612.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width:  100%;
+}
+.form{
+    border: 0.01rem solid black;
+    background-color: #ffffff;
+    border-radius: 2rem;
+    height: 15rem;
+    width: 12rem;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+    padding-right: 2rem;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    top: 35%;
+    left: 40%;
 }
